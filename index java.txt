@@ -1,0 +1,8 @@
+function submitID() {
+    var userID = document.getElementById('userID').value;
+    if (userID) {
+        alert("Instagram User ID submitted: " + userID);
+    } else {
+        alert("Please enter a valid Instagram User ID.");
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Followers & Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Instagram Followers & Likes Service</h1>
+    </header>
+
+    <section>
+        <h2>Enter Instagram User ID:</h2>
+        <input type="text" id="userID" placeholder="Instagram User ID">
+        <button onclick="submitID()">Submit</button>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by You!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
